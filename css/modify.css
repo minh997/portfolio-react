@@ -7,8 +7,7 @@ body {
 }
 
 h1 {
-    margin: 15px auto;
-
+    margin: 35px auto 10px;
     font-size: 300%;
     text-shadow: 0 1px 3px rgba(168, 1, 1, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -19,10 +18,10 @@ h1 {
     background-color: black;
 }
 
-ul {
+.fp-slidesNav.fp-bottom ul {
     text-align: center;
     position: relative;
-    bottom: 65px;
+    bottom: 85px;
 }
 
 /* overwrite Bootsrap btn */
@@ -53,13 +52,10 @@ ul {
         display: none;
         opacity: 0;
     }
-    body {
-        font-size: 80%;
-    }
 }
 
-@media only screen and (max-width: 500px) {
-    body {
-        font-size: 70%;
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 250%;
     }
 }
