@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d0cf38acfb45f6373538527301c5c4f",
+    "revision": "d27c30964d7e98bacd51c5487cc9d213",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "efb2cc6b56ffc0bdf008",
+    "revision": "4b44907653ce4e6c39f0",
     "url": "/portfolio/static/css/main.1b6a0183.chunk.css"
   },
   {
-    "revision": "7f4f30fddfb857ccd804",
-    "url": "/portfolio/static/js/2.bc90ef16.chunk.js"
+    "revision": "06d517204b96411e42bb",
+    "url": "/portfolio/static/js/2.1993b478.chunk.js"
   },
   {
-    "revision": "efb2cc6b56ffc0bdf008",
-    "url": "/portfolio/static/js/main.3b61846d.chunk.js"
+    "revision": "4b44907653ce4e6c39f0",
+    "url": "/portfolio/static/js/main.5cc2b03a.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
+  },
+  {
+    "revision": "50ae15332b27587a5abe689c4fc25bcd",
+    "url": "/portfolio/static/media/MinhNguyen_Resume.50ae1533.pdf"
   },
   {
     "revision": "6baf57d540225128a07d3dcf05ef39ea",
