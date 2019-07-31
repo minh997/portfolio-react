@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2402013a367c5612d9962413d6fefa63",
+    "revision": "0280fad6b9ab9629a8af7560b16fe82e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "63edaed9c8dcdf8bf1ce",
+    "revision": "a8479e4846097f36d536",
     "url": "/portfolio/static/css/main.1b6a0183.chunk.css"
   },
   {
-    "revision": "7f4f30fddfb857ccd804",
-    "url": "/portfolio/static/js/2.bc90ef16.chunk.js"
+    "revision": "06d517204b96411e42bb",
+    "url": "/portfolio/static/js/2.1993b478.chunk.js"
   },
   {
-    "revision": "63edaed9c8dcdf8bf1ce",
-    "url": "/portfolio/static/js/main.cf7ca067.chunk.js"
+    "revision": "a8479e4846097f36d536",
+    "url": "/portfolio/static/js/main.f61ee226.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "80a721661a94aab63f2f5e9a456c50c1",
     "url": "/portfolio/static/media/game.80a72166.gif"
+  },
+  {
+    "revision": "514f4def46644fcd284c6271686d7edb",
+    "url": "/portfolio/static/media/marvel.514f4def.gif"
   },
   {
     "revision": "89158b3ff8380bf13c04d4cd4175bdf3",
