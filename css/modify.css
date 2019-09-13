@@ -43,12 +43,12 @@ h1 {
 
 /* Animation */
 .zoom-on-hover {
-    transition: transform 0.2s;
+    transition: transform 0.5s;
     cursor: pointer;
 }
 
 .zoom-on-hover:hover {
-    transform: scale(1.4);
+    transform: scale(1.2) translateY(10px);
 }
 
 /* Mobile */
