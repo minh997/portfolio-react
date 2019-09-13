@@ -30,6 +30,34 @@ h1 {
     bottom: 85px;
 }
 
+/* navigation bar */
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.9;
+}
+
+.nav div {
+    float: left;
+}
+
+.nav div a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    transition: 1s;
+}
+
+.nav div a:hover {
+    color: white;
+    text-decoration: none !important;
+    font-weight: 400;
+}
+
 /* overwrite Bootsrap btn */
 .circle-btn:focus,
 .circle-btn:active:focus,
