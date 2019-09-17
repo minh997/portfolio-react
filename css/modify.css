@@ -76,7 +76,7 @@ nav {
 }
 
 .zoom-on-hover:hover {
-    transform: scale(1.2) translateY(10px);
+    transform: scale(1.2) 
 }
 
 /* Mobile */
