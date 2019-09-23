@@ -1,0 +1,63 @@
+.card {
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    height: 80%;
+    max-width: 650px;
+}
+
+.card img {
+    height: 60%;
+}
+
+a {
+    margin: 5px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    background: #ffffffd3;
+}
+
+.footer a {
+    font-size: 80%;
+}
+
+/* SLIDE ANIMATION */
+
+@keyframes slideyThing {
+    from {
+        background-position: 500px;
+    }
+    to {
+        background-position: -500px;
+    }
+}
+
+.gradient {
+    width: 500px;
+    text-align: center;
+    text-transform: lowercase;
+    background: linear-gradient(90deg, #222, white, #222);
+    opacity: 0.8;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: slideyThing 5s infinite linear;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .card img {
+        height: 50%;
+    }
+
+    .gradient {
+        width: 350px;
+        font-size: 18px;
+    }
+}

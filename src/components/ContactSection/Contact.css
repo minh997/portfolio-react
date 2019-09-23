@@ -1,0 +1,32 @@
+.contact-card {
+    text-align: left;
+
+    display: block;
+    margin: 25px auto;
+    border-color: #808080;
+    border-style: solid;
+    width: 35%;
+    min-width: 330px;
+    max-width: 400px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.contact-card:active {
+    font-weight: bold;
+}
+
+.contact-card:hover {
+    color: white;
+    background: black;
+}
+
+.contact-holder {
+    margin: auto;
+    width: 80%;
+    height: 500px;
+}
+
+a {
+    color: black;
+}
