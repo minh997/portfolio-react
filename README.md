@@ -11,3 +11,4 @@ built with React, HTML, CSS
 -   Full Page Js
 -   Sweet Alert
 -   Boostrap
+-   React Typyst

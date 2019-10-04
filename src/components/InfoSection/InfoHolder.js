@@ -6,12 +6,11 @@ export class InfoHolder extends Component {
         return (
             <div className="info">
                 <div>
-                    I am full stack developer developer, currently using Node
-                    and React as my main stack
+                    I am full stack developer, curiosity about modern technology
                 </div>
                 <Typist cursor={{ show: false }} avgTypingDelay={50}>
                     <div>
-                        Always learning to solve bigger and better problem
+                        Constantly learning to solve bigger and better problem
                     </div>
                 </Typist>
                 <a

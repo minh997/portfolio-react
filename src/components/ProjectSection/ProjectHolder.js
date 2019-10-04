@@ -27,7 +27,7 @@ class ProjectHolder extends Component {
                 <Project
                     title="Celebrity Face Recognition"
                     description="Easily identify who is in the picture"
-                    built="React-Redux, Marvel API"
+                    built="React-Redux, AWS Regkonition Services"
                     gitLink="https://github.com/minh1609/face-regconition"
                     prodLink="https://minh1609.github.io/face-regconition/"
                     img="face-reg.gif"
@@ -43,8 +43,17 @@ class ProjectHolder extends Component {
                 />
 
                 <Project
-                    title="Secret Diary"
-                    description="A Website helps users keep all the private diary, image"
+                    title="Game Store Management"
+                    description="Web application helps managing items, employees, ... for a game store"
+                    built="SQL database, HTML, CSS, JavaScript, PHP"
+                    gitLink="https://github.com/minh1609/gameStore"
+                    prodLink="https://mygamestore1609.000webhostapp.com/"
+                    img="game.gif"
+                />
+
+                <Project
+                    title="Online Diary"
+                    description="A Website helps users keep all the private diary, image. Data is safety stored on cloud"
                     built="React-Redux, Node-Express, Redis, Amazon S3, Jest, MongoDB, Materialize CSS"
                     gitLink="https://github.com/minh1609/Blogg"
                     prodLink="https://github.com/minh1609/Blogg#technical-document"
@@ -53,32 +62,25 @@ class ProjectHolder extends Component {
                 />
                 <Project
                     title="Social Network"
-                    description="A website allow you to share everything to the world"
+                    description="An online info board, allow anyone to share everything to the world"
                     built="React-Redux, Node-Express, MongoDB, Semantic UI"
                     gitLink="https://github.com/minh1609/social-network"
                     prodLink="https://matrix-network.herokuapp.com/"
                     img="social.gif"
                 />
 
-                <Project
+                {/* <Project
                     title="Portfolio"
                     description="Personal portfolio"
                     built="React(for reuseable component), HTML, CSS"
                     gitLink="https://github.com/minh1609/portfolio"
                     prodLink="https://minh1609.github.io/portfolio/"
                     img="porfolio.gif"
-                />
-                {/* <Project
-                    title="Game Store Management"
-                    description="Manage item quantity, employee, ... for a game store"
-                    built="PHP, xampp, SQL database, HTML, CSS, JavaScript"
-                    gitLink="https://github.com/minh1609/gameStore"
-                    prodLink="https://mygamestore1609.000webhostapp.com/"
-                    img="game.gif"
                 /> */}
+
                 <Project
                     title="FaceBook"
-                    description="It is FaceBook with different domain, also treat your password in different way
+                    description="FaceBook Demo fishing application, demonstrate how hacker steal password from inexperienced web user
                     "
                     built="HTML, CSS, JavaScript"
                     gitLink="https://github.com/minh1609/facebook-clickjacking"

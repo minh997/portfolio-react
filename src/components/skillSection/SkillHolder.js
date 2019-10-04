@@ -9,11 +9,11 @@ class SkillHolder extends Component {
     skills = [
         "React-Redux",
         "Node JS, Express",
-        "AWS Certified Developer (Validation Number:GM16DWBK3M411F51)",
-        "Mongo DB, SQL Database, Redis",
+        "C#, .Net Core, Entity Framework",
+        "AWS Certified Developer - Associate",
+        "Mongo DB, Relational Database, Redis",
         "HTML, CSS, SASS",
-        "Bootstrap, Semantic UI",
-        "C++, Java"
+        "Bootstrap, Semantic UI"
     ];
     skillswantToLearn = [
         " GoLang, Python",

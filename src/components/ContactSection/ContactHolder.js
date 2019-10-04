@@ -30,7 +30,7 @@ export class ContactHolder extends Component {
                         /> */}
 
                         <ContactCard
-                            name="My project on Git Hub"
+                            name="Git Hub"
                             icon="fab fa-github"
                             action="open"
                             link="https://github.com/minh1609"
