@@ -15,6 +15,8 @@ export class ContactCard extends Component {
             });
         } else if (this.props.action === "open") {
             window.open(this.props.link);
+        } else {
+            this.props.onClick();
         }
     };
 
