@@ -24,7 +24,7 @@ export class ContactCard extends Component {
         return (
             <div className="btn contact-card" onClick={this.handleClick}>
                 <i
-                    style={{ fontSize: "25px", marginRight: "15px" }}
+                    style={{ fontSize: "22px", marginRight: "15px" }}
                     className={this.props.icon}
                 />
                 {this.props.name}

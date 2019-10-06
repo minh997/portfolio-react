@@ -4,7 +4,6 @@ import Swal from "sweetalert2";
 
 import "./Contact.css";
 import ContactCard from "./ContactCard";
-import { async } from "q";
 
 const ContactHolder = () => {
     const sendEmail = async () => {
