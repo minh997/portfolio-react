@@ -7,11 +7,11 @@ class Project extends Component {
             return (
                 <a
                     href={this.props.prodLink}
-                    class="btn btn-primary btn-sm"
+                    className="btn btn-primary btn-sm"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i class="fab fa-chrome" style={{ fontSize: "12px" }} />
+                    <i className="fab fa-chrome" style={{ fontSize: "12px" }} />
                     See it Now
                 </a>
             );
@@ -19,11 +19,11 @@ class Project extends Component {
             return (
                 <a
                     href={this.props.prodLink}
-                    class="btn btn-success btn-sm"
+                    className="btn btn-success btn-sm"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i class="fas fa-book" style={{ fontSize: "12px" }} />
+                    <i className="fas fa-book" style={{ fontSize: "12px" }} />
                     Document
                 </a>
             );
@@ -33,15 +33,15 @@ class Project extends Component {
     render() {
         return (
             <div className="slide">
-                <div class="card ">
+                <div className="card ">
                     <img
                         src={require("../../picture/" + this.props.img)}
-                        class="card-img-top"
+                        className="card-img-top"
                         alt={this.props.title}
                     />
 
-                    <div class="card-body">
-                        <h5 class="card-title">{this.props.title}</h5>
+                    <div className="card-body">
+                        <h5 className="card-title">{this.props.title}</h5>
                         <div>{this.props.description}</div>
                         <div>
                             <strong>Built with: </strong>
@@ -51,12 +51,12 @@ class Project extends Component {
                     <div className="footer">
                         <a
                             href={this.props.gitLink}
-                            class="btn btn-dark btn-sm"
+                            className="btn btn-dark btn-sm"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <i
-                                class="fab fa-github fa-fw"
+                                className="fab fa-github fa-fw"
                                 style={{ fontSize: "12px" }}
                             />
                             Source Code

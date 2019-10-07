@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { ses } from "./AWSconfig";
 import Swal from "sweetalert2";
 
@@ -14,14 +14,16 @@ const ContactHolder = () => {
             inputPlaceholder:
                 "Enter your message, your email, I will reply as soon as possible",
             showCancelButton: true,
-            allowOutsideClick: false
+            allowOutsideClick: false,
+            confirmButtonClass: "btn btn-primary m-2",
+            cancelButtonClass: "btn btn-secondary m-2",
+            buttonsStyling: false,
+            title: "Send Message"
         }).then(({ value, dismiss }) => {
-            console.log(value);
-
             //configure email
             let params = {
                 Destination: {
-                    BccAddresses: ["hoangminh160997@gmail.com"]
+                    BccAddresses: ["hoangminh160997@gmail.com"] //Receiver
                 },
                 Message: {
                     Body: {
@@ -33,18 +35,19 @@ const ContactHolder = () => {
                         Data: "New Message send from Portfolio" /* required */
                     }
                 },
-                Source: "pointman449@gmail.com" /* required */
+                Source: "pointman449@gmail.com" /* Sender */
             };
 
             if (value && dismiss !== Swal.DismissReason.cancel) {
                 ses.sendEmail(params, function(err, data) {
                     if (err) console.log(err, err.stack);
                     else {
-                        console.log(data);
                         Swal.fire({
                             type: "success",
                             text: "Your message has been sent"
                         });
+                        let audio = new Audio(require("../../success.m4a"));
+                        audio.play();
                     }
                 });
             } else if (dismiss !== Swal.DismissReason.cancel) {
@@ -80,7 +83,7 @@ const ContactHolder = () => {
                         link="https://github.com/minh1609"
                     />
                     <ContactCard
-                        name="Send me a quick message"
+                        name="Send me a message"
                         icon="fas fa-comment-alt"
                         onClick={sendEmail}
                     />
