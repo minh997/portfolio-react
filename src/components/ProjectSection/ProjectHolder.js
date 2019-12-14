@@ -24,6 +24,15 @@ class ProjectHolder extends Component {
         return (
             <div className="section">
                 {this.renderIntroPage()}
+
+                <Project
+                    title="Online Testing"
+                    description="By using this application, user can easily set up a test or a survey with Multiple-Choice Questions"
+                    built="Node Js, React"
+                    gitLink="https://github.com/minh1609/question-survey"
+                    prodLink="https://question-survey.herokuapp.com/"
+                    img="test.gif"
+                />
                 <Project
                     title="Celebrity Face Recognition"
                     description="Easily identify who is in the picture"
@@ -33,9 +42,8 @@ class ProjectHolder extends Component {
                     img="face-reg.gif"
                 />
                 <Project
-                    title="Marvel Hero"
-                    description="Find information about your favaourite marvel hero
-                    "
+                    title="Marvel Hero Wiki"
+                    description="Find information about your favaourite marvel hero"
                     built="React-Redux, Marvel API"
                     gitLink="https://github.com/minh1609/marvell-hero"
                     prodLink="https://minh1609.github.io/marvell-hero/"
@@ -43,12 +51,12 @@ class ProjectHolder extends Component {
                 />
 
                 <Project
-                    title="Game Store Management"
-                    description="Web application helps managing items, employees, ... for a game store"
-                    built="SQL database, HTML, CSS, JavaScript, PHP"
-                    gitLink="https://github.com/minh1609/gameStore"
-                    prodLink="https://mygamestore1609.000webhostapp.com/"
-                    img="game.gif"
+                    title="Real time Chat Application"
+                    description="Chat Application keep track of user status, message in real time with the help of Web Socket"
+                    built="Web Socket, React, NodeJs"
+                    gitLink="https://github.com/minh1609/marvell-hero"
+                    img="chat.gif"
+                    deployable={false}
                 />
 
                 <Project
@@ -60,14 +68,23 @@ class ProjectHolder extends Component {
                     img="blog.gif"
                     deployable={false}
                 />
-                <Project
-                    title="Social Network"
+                {/* <Project
+                    title="Info Board"
                     description="An online info board, allow anyone to share everything to the world"
                     built="React-Redux, Node-Express, MongoDB, Semantic UI"
                     gitLink="https://github.com/minh1609/social-network"
                     prodLink="https://matrix-network.herokuapp.com/"
                     img="social.gif"
                 />
+
+                <Project
+                    title="Game Store Management"
+                    description="Web application helps managing items, employees, ... for a game store"
+                    built="SQL database, HTML, CSS, JavaScript, PHP"
+                    gitLink="https://github.com/minh1609/gameStore"
+                    prodLink="https://mygamestore1609.000webhostapp.com/"
+                    img="game.gif"
+                /> */}
 
                 {/* <Project
                     title="Portfolio"
@@ -78,7 +95,7 @@ class ProjectHolder extends Component {
                     img="porfolio.gif"
                 /> */}
 
-                <Project
+                {/* <Project
                     title="FaceBook"
                     description="FaceBook Demo fishing application, demonstrate how hacker steal password from inexperienced web user
                     "
@@ -86,7 +103,7 @@ class ProjectHolder extends Component {
                     gitLink="https://github.com/minh1609/facebook-clickjacking"
                     prodLink="https://minh1609.github.io/facebook-clickjacking/"
                     img="facebook.gif"
-                />
+                /> */}
                 {/* <Project
                     title="Email Survey"
                     description="Want to know your client’s opinion about your product, service ? Give this app a list of your client’s email, It will help you to collect all the feedback"

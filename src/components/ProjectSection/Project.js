@@ -12,21 +12,11 @@ class Project extends Component {
                     rel="noopener noreferrer"
                 >
                     <i className="fab fa-chrome" style={{ fontSize: "12px" }} />
-                    See it Now
+                    Demo
                 </a>
             );
         } else {
-            return (
-                <a
-                    href={this.props.prodLink}
-                    className="btn btn-success btn-sm"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <i className="fas fa-book" style={{ fontSize: "12px" }} />
-                    Document
-                </a>
-            );
+            return null;
         }
     };
 
