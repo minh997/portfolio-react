@@ -1,6 +1,6 @@
 ## Link
 
-[Go to Portfolio](http://minh-ng.me)
+[Go to Portfolio](https://minh1609.github.io/portfolio/)
 
 ## Personal Portfolio Project
 
