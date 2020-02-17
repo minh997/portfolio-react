@@ -85,33 +85,6 @@ class ProjectHolder extends Component {
                     prodLink="https://mygamestore1609.000webhostapp.com/"
                     img="game.gif"
                 /> */}
-
-                {/* <Project
-                    title="Portfolio"
-                    description="Personal portfolio"
-                    built="React(for reuseable component), HTML, CSS"
-                    gitLink="https://github.com/minh1609/portfolio"
-                    prodLink="https://minh1609.github.io/portfolio/"
-                    img="porfolio.gif"
-                /> */}
-
-                {/* <Project
-                    title="FaceBook"
-                    description="FaceBook Demo fishing application, demonstrate how hacker steal password from inexperienced web user
-                    "
-                    built="HTML, CSS, JavaScript"
-                    gitLink="https://github.com/minh1609/facebook-clickjacking"
-                    prodLink="https://minh1609.github.io/facebook-clickjacking/"
-                    img="facebook.gif"
-                /> */}
-                {/* <Project
-                    title="Email Survey"
-                    description="Want to know your client’s opinion about your product, service ? Give this app a list of your client’s email, It will help you to collect all the feedback"
-                    built="React-Redux, Node-Express, MongoDB, Materialize CSS"
-                    gitLink="https://github.com/minh1609/emailsurvey"
-                    prodLink="https://email-survey-react.herokuapp.com/"
-                    img="email.gif"
-                /> */}
             </div>
         );
     }
