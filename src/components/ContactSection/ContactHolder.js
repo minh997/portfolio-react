@@ -13,38 +13,39 @@ const ContactHolder = () => {
             input: "textarea",
             inputPlaceholder:
                 "Enter your message, your email, I will reply as soon as possible",
+
             showCancelButton: true,
             allowOutsideClick: false,
-            confirmButtonClass: "btn btn-primary m-2",
-            cancelButtonClass: "btn btn-secondary m-2",
+            confirmButtonClass: "btn btn-primary m-2 neumorphism-1",
+            cancelButtonClass: "btn btn-secondary m-2 neumorphism-1",
             buttonsStyling: false,
-            title: "Send Message"
+            title: "Send Message",
         }).then(({ value, dismiss }) => {
             //configure email
             let params = {
                 Destination: {
-                    BccAddresses: ["hoangminh160997@gmail.com"] //Receiver
+                    BccAddresses: ["hoangminh160997@gmail.com"], //Receiver
                 },
                 Message: {
                     Body: {
                         Text: {
-                            Data: value
-                        }
+                            Data: value,
+                        },
                     },
                     Subject: {
-                        Data: "New Message send from Portfolio" /* required */
-                    }
+                        Data: "New Message send from Portfolio" /* required */,
+                    },
                 },
-                Source: "pointman449@gmail.com" /* Sender */
+                Source: "pointman449@gmail.com" /* Sender */,
             };
 
             if (value && dismiss !== Swal.DismissReason.cancel) {
-                ses.sendEmail(params, function(err, data) {
+                ses.sendEmail(params, function (err, data) {
                     if (err) console.log(err, err.stack);
                     else {
                         Swal.fire({
                             type: "success",
-                            text: "Your message has been sent"
+                            text: "Your message has been sent",
                         });
                         let audio = new Audio(require("../../success.m4a"));
                         audio.play();
@@ -53,7 +54,7 @@ const ContactHolder = () => {
             } else if (dismiss !== Swal.DismissReason.cancel) {
                 Swal.fire({
                     type: "warning",
-                    text: "Hmm, you forgot to write the content"
+                    text: "Hmm, you forgot to write the content",
                 });
             }
         });
@@ -62,7 +63,6 @@ const ContactHolder = () => {
     return (
         <React.Fragment>
             <div className="contact-holder">
-                <p>Feel free to contact me at</p>
                 <div>
                     <ContactCard
                         name="hminh16169@gmail.com"

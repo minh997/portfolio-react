@@ -9,7 +9,7 @@ class ProjectHolder extends Component {
             <div className="slide">
                 <h1>Pet Projects</h1>
                 <div
-                    className="gradient"
+                    className="gradient "
                     onClick={() => {
                         this.props.fullpageApi.moveSlideRight();
                     }}

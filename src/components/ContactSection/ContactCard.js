@@ -11,7 +11,7 @@ export class ContactCard extends Component {
                 text: ` ${this.props.link} \n saved on your clipboard`,
                 timer: 3000,
                 toast: true,
-                showConfirmButton: false
+                showConfirmButton: false,
             });
         } else if (this.props.action === "open") {
             window.open(this.props.link);
@@ -22,7 +22,10 @@ export class ContactCard extends Component {
 
     render() {
         return (
-            <div className="btn contact-card" onClick={this.handleClick}>
+            <div
+                className="btn contact-card neumorphism-1 "
+                onClick={this.handleClick}
+            >
                 <i
                     style={{ fontSize: "22px", marginRight: "15px" }}
                     className={this.props.icon}

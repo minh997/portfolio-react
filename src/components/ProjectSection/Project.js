@@ -2,16 +2,20 @@ import React, { Component } from "react";
 import "./Project.css";
 
 class Project extends Component {
-    renderLink = () => {
+    renderDemoLink = () => {
         if (this.props.deployable === true) {
             return (
                 <a
                     href={this.props.prodLink}
-                    className="btn btn-primary btn-sm"
+                    // className="btn btn-primary btn-sm"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="neumorphism-1"
                 >
-                    <i className="fab fa-chrome" style={{ fontSize: "12px" }} />
+                    <i
+                        className="fab fa-chrome "
+                        style={{ fontSize: "20px" }}
+                    />
                     Demo
                 </a>
             );
@@ -23,10 +27,10 @@ class Project extends Component {
     render() {
         return (
             <div className="slide">
-                <div className="card ">
+                <div className="card neumorphism-1 p-3">
                     <img
                         src={require("../../picture/" + this.props.img)}
-                        className="card-img-top"
+                        className="card-img-top neumorphism-2"
                         alt={this.props.title}
                     />
 
@@ -41,17 +45,17 @@ class Project extends Component {
                     <div className="footer">
                         <a
                             href={this.props.gitLink}
-                            className="btn btn-dark btn-sm"
+                            // className="btn btn-dark btn-sm"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <i
-                                className="fab fa-github fa-fw"
-                                style={{ fontSize: "12px" }}
+                                className="fab fa-github fa-fw neumorphism-1 "
+                                style={{ fontSize: "20px" }}
                             />
-                            Source Code
                         </a>
-                        {this.renderLink()}
+
+                        {this.renderDemoLink()}
                     </div>
                 </div>
             </div>
@@ -66,7 +70,7 @@ Project.defaultProps = {
     title: "Name of App",
     built: "Cobol, Binary",
     img: "email.gif",
-    deployable: true //for project can deploy or not
+    deployable: true, //for project can deploy or not
 };
 
 export default Project;

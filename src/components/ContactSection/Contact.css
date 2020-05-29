@@ -1,10 +1,7 @@
 .contact-card {
     text-align: left;
-
     display: block;
     margin: 25px auto;
-    border-color: #808080;
-    border-style: solid;
     width: 35%;
     min-width: 300px;
     max-width: 400px;
