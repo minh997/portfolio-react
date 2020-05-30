@@ -13,7 +13,7 @@ class Section extends Component {
 
 Section.defaultProps = {
     title: "title",
-    content: "ABALNDLADNLSDNDnalshflasnpehq;f ajsf;ansf;ajasd;a"
+    content: "ABALNDLADNLSDNDnalshflasnpehq;f ajsf;ansf;ajasd;a",
 };
 
 export default Section;

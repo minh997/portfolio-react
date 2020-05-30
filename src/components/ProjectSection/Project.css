@@ -4,6 +4,7 @@
     width: 80%;
     height: 65%;
     max-width: 650px;
+    background-color: #dde1e7;
 }
 
 .card img {
@@ -19,7 +20,7 @@ a {
     margin: 10px;
     padding-top: 2px;
     padding-bottom: 2px;
-    background: #ffffffd3;
+    background: #dde1e7;
 }
 
 .footer a {

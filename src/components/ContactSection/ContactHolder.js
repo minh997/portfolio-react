@@ -62,7 +62,7 @@ const ContactHolder = () => {
 
     return (
         <React.Fragment>
-            <div className="contact-holder">
+            <div className="contact-holder vertical-align ">
                 <div>
                     <ContactCard
                         name="hminh16169@gmail.com"

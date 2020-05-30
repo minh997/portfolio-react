@@ -45,12 +45,11 @@ class Project extends Component {
                     <div className="footer">
                         <a
                             href={this.props.gitLink}
-                            // className="btn btn-dark btn-sm"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <i
-                                className="fab fa-github fa-fw neumorphism-1 "
+                                className="fab fa-github fa-fw neumorphism-1  "
                                 style={{ fontSize: "20px" }}
                             />
                         </a>
