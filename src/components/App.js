@@ -4,7 +4,6 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Section from "./Section";
 
 import InfoHolder from "./InfoSection/InfoHolder";
-import SkillHolder from "./skillSection/SkillHolder";
 import ProjectHolder from "./ProjectSection/ProjectHolder";
 import ContactHolder from "./ContactSection/ContactHolder";
 import NavBar from "./NavBar-old";
@@ -34,7 +33,7 @@ class App extends React.Component {
                             "About Me",
                             "Skills",
                             "Projects",
-                            "Contact"
+                            "Contact",
                         ]}
                         slidesNavigation={true}
                         verticalCentered={false}
@@ -47,11 +46,6 @@ class App extends React.Component {
                                     <Section
                                         title="About me"
                                         content={<InfoHolder />}
-                                    />
-
-                                    <Section
-                                        title="Tech I work with"
-                                        content={<SkillHolder />}
                                     />
 
                                     <ProjectHolder

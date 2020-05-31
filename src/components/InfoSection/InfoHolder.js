@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import Typist from "react-typist";
 
-export class InfoHolder extends Component {
-    render() {
-        return (
-            <div className="info">
+const InfoHolder = () => {
+    return (
+        <div className="info vertical-align" style={{ height: "600px" }}>
+            <div>
                 <div>
                     I am full stack developer, curiosity about modern technology
                 </div>
@@ -25,8 +25,8 @@ export class InfoHolder extends Component {
                     />
                 </a>
             </div>
-        );
-    }
-}
+        </div>
+    );
+};
 
 export default InfoHolder;
