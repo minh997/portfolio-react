@@ -3,7 +3,7 @@ import Typist from "react-typist";
 
 const InfoHolder = () => {
     return (
-        <div className="info vertical-align" style={{ height: "600px" }}>
+        <div className="info" style={{ height: "600px" }}>
             <div>
                 <div>
                     I am full stack developer, curiosity about modern technology

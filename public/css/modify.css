@@ -101,7 +101,6 @@ textarea {
     transition: all 0.2s ease-in-out;
     appearance: none;
     border-radius: 250px;
-    text-shadow: 1px 1px 0;
 }
 
 .neumorphism-2 {

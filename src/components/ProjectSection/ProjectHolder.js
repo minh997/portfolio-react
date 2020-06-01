@@ -27,8 +27,12 @@ class ProjectHolder extends Component {
 
                 <Project
                     title="Online Testing"
-                    description="By using this application, user can easily set up a test or a survey with Multiple-Choice Questions"
-                    built="Node Js, React"
+                    description={
+                        <div>
+                            By using this application, user can easily set up a
+                            test or a survey with Multiple-Choice Questions
+                        </div>
+                    }
                     gitLink="https://github.com/minh1609/question-survey"
                     prodLink="https://question-survey.herokuapp.com/"
                     img="test.gif"
@@ -36,7 +40,6 @@ class ProjectHolder extends Component {
                 <Project
                     title="Celebrity Face Recognition"
                     description="Easily identify who is in the picture"
-                    built="React-Redux, AWS Regkonition Services"
                     gitLink="https://github.com/minh1609/face-regconition"
                     prodLink="https://minh1609.github.io/face-regconition/"
                     img="face-reg.gif"

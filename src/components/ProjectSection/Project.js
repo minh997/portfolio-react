@@ -37,10 +37,6 @@ class Project extends Component {
                     <div className="card-body">
                         <h5 className="card-title">{this.props.title}</h5>
                         <div>{this.props.description}</div>
-                        <div>
-                            <strong>Built with: </strong>
-                            {this.props.built}
-                        </div>
                     </div>
                     <div className="footer">
                         <a
