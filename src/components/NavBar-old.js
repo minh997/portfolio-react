@@ -29,9 +29,7 @@ class NavBar extends Component {
                         <a className="nav-item nav-link" href="#intro">
                             About Me <span className="sr-only">(current)</span>
                         </a>
-                        <a className="nav-item nav-link" href="#skills">
-                            My Skills
-                        </a>
+
                         <a className="nav-item nav-link" href="#projects">
                             Project
                         </a>

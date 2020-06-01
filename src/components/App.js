@@ -29,17 +29,12 @@ class App extends React.Component {
                         loopHorizontal={false}
                         recordHistory={false}
                         navigation={true}
-                        navigationTooltips={[
-                            "About Me",
-                            "Skills",
-                            "Projects",
-                            "Contact",
-                        ]}
+                        navigationTooltips={["About Me", "Projects", "Contact"]}
                         slidesNavigation={true}
                         verticalCentered={false}
                         onLeave={this.onLeave.bind(this)}
                         afterLoad={this.afterLoad.bind(this)}
-                        anchors={["intro", "skills", "projects", "contact"]}
+                        anchors={["intro", "projects", "contact"]}
                         render={({ state, fullpageApi }) => {
                             return (
                                 <React.Fragment>
