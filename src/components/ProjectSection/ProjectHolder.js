@@ -26,11 +26,17 @@ class ProjectHolder extends Component {
                 {this.renderIntroPage()}
 
                 <Project
-                    title="Online Testing"
+                    title="Quiz Maker"
                     description={
                         <div>
-                            By using this application, user can easily set up a
-                            test or a survey with Multiple-Choice Questions
+                            This website helps users create online quizzes under
+                            multiple-choice question format and keep data of who
+                            took it and their score. Users profile is safety
+                            secured by <strong>Google Oauth</strong> . App is
+                            built with
+                            <strong>
+                                NodeJS, React, MongoDB, and Restful API.
+                            </strong>
                         </div>
                     }
                     gitLink="https://github.com/minh1609/question-survey"
@@ -39,15 +45,29 @@ class ProjectHolder extends Component {
                 />
                 <Project
                     title="Celebrity Face Recognition"
-                    description="Easily identify who is in the picture"
+                    description={
+                        <div>
+                            By using
+                            <strong> Amazon Web Sevice-Regkonition </strong>,
+                            this Web App can quickly identify which celebrities
+                            appear in the picture in less than 1 seconds
+                        </div>
+                    }
                     gitLink="https://github.com/minh1609/face-regconition"
                     prodLink="https://minh1609.github.io/face-regconition/"
                     img="face-reg.gif"
                 />
                 <Project
-                    title="Marvel Hero Wiki"
-                    description="Find information about your favaourite marvel hero"
-                    built="React-Redux, Marvel API"
+                    title="Marvel Characters Library"
+                    description={
+                        <div>
+                            A website contains data of more than 1000 characters
+                            from Marvel Universe. Data is fetched directly from
+                            Marvel database through public API and served on a
+                            Single Page Application built with
+                            <strong> React</strong>
+                        </div>
+                    }
                     gitLink="https://github.com/minh1609/marvell-hero"
                     prodLink="https://minh1609.github.io/marvell-hero/"
                     img="marvel.gif"
@@ -55,14 +75,13 @@ class ProjectHolder extends Component {
 
                 <Project
                     title="Real time Chat Application"
-                    description="Chat Application keep track of user status, message in real time with the help of Web Socket"
-                    built="Web Socket, React, NodeJs"
+                    description="Chat Application can keep track of user status, message in real time"
                     gitLink="https://github.com/minh1609/marvell-hero"
                     img="chat.gif"
                     deployable={false}
                 />
 
-                <Project
+                {/* <Project
                     title="Online Diary"
                     description="A Website helps users keep all the private diary, image. Data is safety stored on cloud"
                     built="React-Redux, Node-Express, Redis, Amazon S3, Jest, MongoDB, Materialize CSS"
@@ -70,7 +89,7 @@ class ProjectHolder extends Component {
                     prodLink="https://github.com/minh1609/Blogg#technical-document"
                     img="blog.gif"
                     deployable={false}
-                />
+                /> */}
                 {/* <Project
                     title="Info Board"
                     description="An online info board, allow anyone to share everything to the world"
