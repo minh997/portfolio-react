@@ -38,7 +38,7 @@ class Project extends Component {
                         <h5 className="card-title">{this.props.title}</h5>
                         <div>{this.props.description}</div>
                     </div>
-                    <div className="footer">
+                    <div>
                         <a
                             href={this.props.gitLink}
                             target="_blank"

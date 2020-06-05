@@ -2,7 +2,6 @@
     margin: auto;
     text-align: left;
     width: 80%;
-    height: 65%;
     max-width: 650px;
     background-color: #dde1e7;
 }
@@ -13,18 +12,6 @@
 
 a {
     margin: 5px;
-}
-
-.footer {
-    position: relative;
-    margin: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    background: #dde1e7;
-}
-
-.footer a {
-    font-size: 80%;
 }
 
 /* SLIDE ANIMATION */
@@ -65,7 +52,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .card img {
         height: 45%;
     }

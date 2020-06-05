@@ -21,9 +21,20 @@
 .contact-holder {
     margin: auto;
     width: 80%;
-    height: 500px;
 }
 
 a {
     color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact-card {
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-holder {
+        margin-top: 10%;
+    }
 }

@@ -39,12 +39,12 @@ class App extends React.Component {
                             return (
                                 <React.Fragment>
                                     <Section
-                                        title="About me"
+                                        title="Hi, My name is Minh"
                                         content={<InfoHolder />}
                                     />
 
                                     <ProjectHolder
-                                        title="My Project"
+                                        title="Pet Projects"
                                         fullpageApi={fullpageApi}
                                     />
                                     <Section

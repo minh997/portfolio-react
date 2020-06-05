@@ -63,7 +63,7 @@ class ProjectHolder extends Component {
                         <div>
                             A website contains data of more than 1000 characters
                             from Marvel Universe. Data is fetched directly from
-                            Marvel database through public API and served on a
+                            Marvel database through web API and served on a
                             Single Page Application built with
                             <strong> React</strong>
                         </div>
