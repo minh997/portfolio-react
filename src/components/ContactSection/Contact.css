@@ -31,6 +31,10 @@ a {
     .contact-card {
         margin: 30px;
     }
+
+    .contact-holder {
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
