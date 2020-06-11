@@ -25,7 +25,7 @@ class ProjectHolder extends Component {
             <div className="section">
                 {this.renderIntroPage()}
 
-                <Project
+                {/* <Project
                     title="Quiz Maker"
                     description={
                         <div>
@@ -41,7 +41,7 @@ class ProjectHolder extends Component {
                     }
                     gitLink="https://github.com/minh1609/question-survey"
                     prodLink="https://question-survey.herokuapp.com/"
-                    img="test.gif"
+                    medidaFile="test.gif"
                 />
                 <Project
                     title="Celebrity Face Recognition"
@@ -55,8 +55,8 @@ class ProjectHolder extends Component {
                     }
                     gitLink="https://github.com/minh1609/face-regconition"
                     prodLink="https://minh1609.github.io/face-regconition/"
-                    img="face-reg.gif"
-                />
+                    medidaFile="face-reg.gif"
+                /> */}
                 <Project
                     title="Marvel Characters Library"
                     description={
@@ -70,16 +70,16 @@ class ProjectHolder extends Component {
                     }
                     gitLink="https://github.com/minh1609/marvell-hero"
                     prodLink="https://minh1609.github.io/marvell-hero/"
-                    img="marvel.gif"
+                    medidaFile="marvel"
                 />
-
+                {/* 
                 <Project
                     title="Real time Chat Application"
                     description="Chat Application can keep track of user status, message in real time"
                     gitLink="https://github.com/minh1609/marvell-hero"
-                    img="chat.gif"
+                    medidaFile="chat.gif"
                     deployable={false}
-                />
+                /> */}
 
                 {/* <Project
                     title="Online Diary"

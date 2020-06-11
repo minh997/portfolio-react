@@ -1,12 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
+
 import "./Project.css";
 
-class Project extends Component {
-    renderDemoLink = () => {
-        if (this.props.deployable === true) {
+const Project = (props) => {
+    const renderDemoLink = () => {
+        if (props.deployable === true) {
             return (
                 <a
-                    href={this.props.prodLink}
+                    href={props.prodLink}
                     // className="btn btn-primary btn-sm"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -24,39 +25,40 @@ class Project extends Component {
         }
     };
 
-    render() {
-        return (
-            <div className="slide">
-                <div className="card neumorphism-1 p-3">
-                    <img
-                        src={require("../../picture/" + this.props.img)}
-                        className="card-img-top neumorphism-2"
-                        alt={this.props.title}
-                    />
+    return (
+        <div className="slide">
+            <div className="card neumorphism-1 p-3">
+                <video
+                    autoPlay
+                    loop
+                    controls
+                    src={require(`../../picture/${props.mediaFile}.webm`)}
+                    className="card-img-top neumorphism-2"
+                    alt={props.title}
+                ></video>
 
-                    <div className="card-body">
-                        <h5 className="card-title">{this.props.title}</h5>
-                        <div>{this.props.description}</div>
-                    </div>
-                    <div>
-                        <a
-                            href={this.props.gitLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <i
-                                className="fab fa-github fa-fw neumorphism-1  "
-                                style={{ fontSize: "20px" }}
-                            />
-                        </a>
+                <div className="card-body">
+                    <h5 className="card-title">{props.title}</h5>
+                    <div>{props.description}</div>
+                </div>
+                <div>
+                    <a
+                        href={props.gitLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i
+                            className="fab fa-github fa-fw neumorphism-1  "
+                            style={{ fontSize: "20px" }}
+                        />
+                    </a>
 
-                        {this.renderDemoLink()}
-                    </div>
+                    {renderDemoLink()}
                 </div>
             </div>
-        );
-    }
-}
+        </div>
+    );
+};
 
 Project.defaultProps = {
     gitLink: "https://minh997.github.io/SpainWorldCup2018/",
@@ -64,7 +66,7 @@ Project.defaultProps = {
     description: "Tis is a web App",
     title: "Name of App",
     built: "Cobol, Binary",
-    img: "email.gif",
+    mediaFile: "marvel",
     deployable: true, //for project can deploy or not
 };
 
