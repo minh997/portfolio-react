@@ -75,7 +75,7 @@ const ProjectHolder = (props) => {
             <Project
                 title="Real time Chat Application"
                 description="Chat Application can keep track of user status, message in real time"
-                gitLink="https://github.com/minh1609/marvell-hero"
+                gitLink="https://github.com/minh1609/chat-app"
                 mediaFile="chat.mp4"
                 deployable={false}
             />
