@@ -24,7 +24,7 @@ const ProjectHolder = (props) => {
         <div className="section">
             {renderIntroPage()}
 
-            {/* <Project
+            <Project
                 title="Quiz Maker"
                 description={
                     <div>
@@ -40,9 +40,9 @@ const ProjectHolder = (props) => {
                 }
                 gitLink="https://github.com/minh1609/question-survey"
                 prodLink="https://question-survey.herokuapp.com/"
-                medidaFile="quiz.mp4"
-            /> */}
-            {/* <Project
+                mediaFile="quiz.mp4"
+            />
+            <Project
                 title="Celebrity Face Recognition"
                 description={
                     <div>
@@ -54,8 +54,8 @@ const ProjectHolder = (props) => {
                 }
                 gitLink="https://github.com/minh1609/face-regconition"
                 prodLink="https://minh1609.github.io/face-regconition/"
-                medidaFile="facereg.mp4"
-            /> */}
+                mediaFile="facereg.mp4"
+            />
             <Project
                 title="Marvel Characters Library"
                 description={
@@ -69,16 +69,16 @@ const ProjectHolder = (props) => {
                 }
                 gitLink="https://github.com/minh1609/marvell-hero"
                 prodLink="https://minh1609.github.io/marvell-hero/"
-                medidaFile="blog.gif"
+                mediaFile="marvel.mp4"
             />
 
-            {/* <Project
+            <Project
                 title="Real time Chat Application"
                 description="Chat Application can keep track of user status, message in real time"
                 gitLink="https://github.com/minh1609/marvell-hero"
-                medidaFile="chat.mp4"
+                mediaFile="chat.mp4"
                 deployable={false}
-            /> */}
+            />
 
             {/* <Project
                     title="Online Diary"

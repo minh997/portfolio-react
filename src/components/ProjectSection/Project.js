@@ -6,8 +6,7 @@ const Project = (props) => {
     return (
         <div className="slide">
             <div className="card neumorphism-1 p-3">
-                {/* <video
-                    autoPlay
+                <video
                     loop
                     controls
                     className="card-img-top neumorphism-2"
@@ -16,14 +15,8 @@ const Project = (props) => {
                     <source
                         src={require("../../picture/" + props.mediaFile)}
                         type="video/mp4"
-                    />
-                </video> */}
-
-                <img
-                    src={require("../../picture/" + props.mediaFile)}
-                    className="card-img-top neumorphism-2"
-                    alt={props.title}
-                />
+                    ></source>
+                </video>
 
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
@@ -63,7 +56,7 @@ const Project = (props) => {
 Project.defaultProps = {
     gitLink: "https://minh997.github.io/SpainWorldCup2018/",
     prodLink: "https://www.youtube.com/",
-    mediaFile: "game.gif",
+    // mediaFile: "quiz.mp4",
     title: "Name of App",
     deployable: true, //for project can deploy or not
 };
