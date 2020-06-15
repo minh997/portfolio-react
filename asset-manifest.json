@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8c5b01b9.chunk.css",
-    "main.js": "/portfolio/static/js/main.b4614276.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b4614276.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8c411501.chunk.css",
+    "main.js": "/portfolio/static/js/main.301a19c3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.301a19c3.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.30de1a6e.chunk.js": "/portfolio/static/js/2.30de1a6e.chunk.js",
-    "static/js/2.30de1a6e.chunk.js.map": "/portfolio/static/js/2.30de1a6e.chunk.js.map",
+    "static/js/2.faa7ea4b.chunk.js": "/portfolio/static/js/2.faa7ea4b.chunk.js",
+    "static/js/2.faa7ea4b.chunk.js.map": "/portfolio/static/js/2.faa7ea4b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8c3d5593e20d19ef2b75c89b1c7f0cfa.js": "/portfolio/precache-manifest.8c3d5593e20d19ef2b75c89b1c7f0cfa.js",
+    "precache-manifest.637a0f6628177756da6ea87df3e55ddd.js": "/portfolio/precache-manifest.637a0f6628177756da6ea87df3e55ddd.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.8c5b01b9.chunk.css.map": "/portfolio/static/css/main.8c5b01b9.chunk.css.map",
+    "static/css/main.8c411501.chunk.css.map": "/portfolio/static/css/main.8c411501.chunk.css.map",
     "static/media/badge.png": "/portfolio/static/media/badge.c9612f20.png",
     "static/media/blog.gif": "/portfolio/static/media/blog.6baf57d5.gif",
-    "static/media/chat.gif": "/portfolio/static/media/chat.aaf18cf9.gif",
-    "static/media/face-reg.gif": "/portfolio/static/media/face-reg.3392a549.gif",
+    "static/media/chat.mp4": "/portfolio/static/media/chat.6aefd7cf.mp4",
+    "static/media/facereg.mp4": "/portfolio/static/media/facereg.744e834b.mp4",
     "static/media/game.gif": "/portfolio/static/media/game.80a72166.gif",
-    "static/media/marvel.gif": "/portfolio/static/media/marvel.514f4def.gif",
-    "static/media/success.m4a": "/portfolio/static/media/success.59d46b62.m4a",
-    "static/media/test.gif": "/portfolio/static/media/test.ed2464db.gif"
+    "static/media/marvel.mp4": "/portfolio/static/media/marvel.e206cc6e.mp4",
+    "static/media/quiz.mp4": "/portfolio/static/media/quiz.08384dd1.mp4",
+    "static/media/success.m4a": "/portfolio/static/media/success.59d46b62.m4a"
   }
 }
