@@ -3,39 +3,27 @@ import React from "react";
 import "./Project.css";
 
 const Project = (props) => {
-    const renderDemoLink = () => {
-        if (props.deployable === true) {
-            return (
-                <a
-                    href={props.prodLink}
-                    // className="btn btn-primary btn-sm"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="neumorphism-1"
-                >
-                    <i
-                        className="fab fa-chrome "
-                        style={{ fontSize: "20px" }}
-                    />
-                    Demo
-                </a>
-            );
-        } else {
-            return null;
-        }
-    };
-
     return (
         <div className="slide">
             <div className="card neumorphism-1 p-3">
-                <video
+                {/* <video
                     autoPlay
                     loop
                     controls
-                    src={require(`../../picture/${props.mediaFile}.webm`)}
                     className="card-img-top neumorphism-2"
                     alt={props.title}
-                ></video>
+                >
+                    <source
+                        src={require("../../picture/" + props.mediaFile)}
+                        type="video/mp4"
+                    />
+                </video> */}
+
+                <img
+                    src={require("../../picture/" + props.mediaFile)}
+                    className="card-img-top neumorphism-2"
+                    alt={props.title}
+                />
 
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
@@ -48,12 +36,24 @@ const Project = (props) => {
                         rel="noopener noreferrer"
                     >
                         <i
-                            className="fab fa-github fa-fw neumorphism-1  "
+                            className="fab fa-github fa-fw "
                             style={{ fontSize: "20px" }}
                         />
                     </a>
 
-                    {renderDemoLink()}
+                    {props.deployable && (
+                        <a
+                            href={props.prodLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i
+                                className="fab fa-chrome "
+                                style={{ fontSize: "20px" }}
+                            />
+                            Demo
+                        </a>
+                    )}
                 </div>
             </div>
         </div>
@@ -63,10 +63,8 @@ const Project = (props) => {
 Project.defaultProps = {
     gitLink: "https://minh997.github.io/SpainWorldCup2018/",
     prodLink: "https://www.youtube.com/",
-    description: "Tis is a web App",
+    mediaFile: "game.gif",
     title: "Name of App",
-    built: "Cobol, Binary",
-    mediaFile: "marvel",
     deployable: true, //for project can deploy or not
 };
 
