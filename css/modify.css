@@ -15,6 +15,11 @@ h1 {
     display: block;
 }
 
+.mtop {
+    position: relative;
+    top: 10%;
+}
+
 .info {
     line-height: 2;
     padding: 30px 0;
@@ -114,8 +119,8 @@ textarea {
 /* Mobile */
 
 @media only screen and (max-width: 1500px) {
-    h1 {
-        margin-top: 1%;
+    .mtop {
+        top: 2%;
     }
 }
 
@@ -127,8 +132,4 @@ textarea {
 }
 
 @media only screen and (max-width: 500px) {
-    h1 {
-        font-size: 250%;
-        margin-top: 15%;
-    }
 }
