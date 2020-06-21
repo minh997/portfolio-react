@@ -7,8 +7,8 @@ class NavBar extends Component {
                 className="navbar navbar-expand-lg navbar-dark bg-dark "
                 style={{ zIndex: 3 }}
             >
-                <a className="navbar-brand" href="#intro">
-                    MINH
+                <a className="navbar-brand" href="#projects">
+                    MINH'S PORTFOLIO
                 </a>
                 {/* <button
                     className="navbar-toggler"
@@ -26,12 +26,12 @@ class NavBar extends Component {
                     id="navbarNavAltMarkup"
                 >
                     <div className="navbar-nav">
-                        <a className="nav-item nav-link" href="#intro">
+                        {/* <a className="nav-item nav-link" href="#intro">
                             About Me <span className="sr-only">(current)</span>
-                        </a>
+                        </a> */}
 
                         <a className="nav-item nav-link" href="#projects">
-                            Project
+                            Project <span className="sr-only">(current)</span>
                         </a>
                         <a className="nav-item nav-link" href="#contact">
                             Contact

@@ -5,7 +5,7 @@ import "./Project.css";
 const Project = (props) => {
     return (
         <div className="slide">
-            <div className="card neumorphism-1 p-1">
+            <div className="card neumorphism-1 p-1 mtop">
                 <video
                     loop
                     controls

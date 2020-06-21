@@ -13,7 +13,7 @@ const InfoHolder = () => {
                         Constantly learning to solve bigger and better problem
                     </div>
                 </Typist>
-                <a
+                {/* <a
                     target="blank"
                     href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2019-09-10&ci=AWS01045729"
                 >
@@ -23,7 +23,7 @@ const InfoHolder = () => {
                         alt="aws-certified"
                         className="zoom-on-hover mt-4"
                     />
-                </a>
+                </a> */}
             </div>
         </div>
     );
