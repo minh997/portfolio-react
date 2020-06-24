@@ -4,17 +4,17 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@fullpage/react-fullpage": "^0.1.14",
-        "aws-sdk": "^2.543.0",
-        "bootstrap": "^4.3.1",
-        "gh-pages": "^2.0.1",
-        "react": "^16.8.6",
-        "react-bootstrap": "^1.0.0-beta.12",
-        "react-dom": "^16.8.6",
-        "react-player": "^2.2.0",
+        "@fullpage/react-fullpage": "^0.1.17",
+        "aws-sdk": "^2.701.0",
+        "bootstrap": "^4.5.0",
+        "gh-pages": "^2.2.0",
+        "react": "^16.13.1",
+        "react-bootstrap": "^1.0.1",
+        "react-dom": "^16.13.1",
+        "react-player": "^2.3.1",
         "react-scripts": "3.0.1",
         "react-typist": "^2.0.5",
-        "sweetalert2": "^8.12.1"
+        "sweetalert2": "^8.19.0"
     },
     "scripts": {
         "start": "react-scripts start",
