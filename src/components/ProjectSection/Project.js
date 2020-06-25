@@ -19,34 +19,35 @@ const Project = (props) => {
                 </video>
 
                 <div className="card-body">
-                    <h5 className="card-title">{props.title}</h5>
-                    <div>{props.description}</div>
-                </div>
-                <div>
-                    <a
-                        href={props.gitLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i
-                            className="fab fa-github fa-fw "
-                            style={{ fontSize: "20px" }}
-                        />
-                    </a>
-
-                    {props.deployable && (
-                        <a
-                            href={props.prodLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                    <h5 className="card-title">
+                        {props.title}{" "}
+                        <div
+                            style={{
+                                display: "inline-block",
+                                fontSize: "15px",
+                            }}
                         >
-                            <i
-                                className="fab fa-chrome "
-                                style={{ fontSize: "20px" }}
-                            />
-                            Demo
-                        </a>
-                    )}
+                            <a
+                                href={props.gitLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-github fa-fw " /> Source
+                                Code
+                            </a>
+                            {props.deployable && (
+                                <a
+                                    href={props.prodLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="fab fa-chrome " /> Demo
+                                </a>
+                            )}
+                        </div>
+                    </h5>
+
+                    <div>{props.description}</div>
                 </div>
             </div>
         </div>
