@@ -15,6 +15,15 @@ h1 {
     display: block;
 }
 
+.section a {
+    text-decoration: none !important;
+    transition: 0.2s;
+}
+
+.section a:hover {
+    color: grey !important;
+}
+
 .mtop {
     position: relative;
     top: 10%;

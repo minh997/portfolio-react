@@ -1,4 +1,5 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 
 import Project from "./Project";
 import "./Project.css";
@@ -14,7 +15,19 @@ const ProjectHolder = (props) => {
                         props.fullpageApi.moveSlideRight();
                     }}
                 >
-                    slide or click here to see my projects
+                    slide left <i class="fas fa-arrow-circle-left"></i> or click
+                    here to see my projects
+                </div>
+                <div className="mt-5">
+                    <a href="#projects/1">
+                        <h5 style={{ display: "inline-block" }}>Quiz Maker</h5>
+                    </a>
+                    <a href="#projects/2">
+                        <h5>Celebrity Face Recognition</h5>
+                    </a>
+                    <a href="#projects/3">
+                        <h5>Marvel Characters Library</h5>
+                    </a>
                 </div>
             </div>
         );
