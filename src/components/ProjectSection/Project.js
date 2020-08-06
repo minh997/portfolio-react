@@ -31,6 +31,7 @@ const Project = (props) => {
                                 href={props.gitLink}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                style={{ color: "blue" }}
                             >
                                 <i className="fab fa-github fa-fw " /> Source
                                 Code
@@ -40,6 +41,7 @@ const Project = (props) => {
                                     href={props.prodLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    style={{ color: "red" }}
                                 >
                                     <i className="fab fa-chrome " /> Demo
                                 </a>
